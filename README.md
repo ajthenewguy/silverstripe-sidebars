@@ -1,0 +1,4 @@
+silverstripe-sidebars
+=====================
+
+Sidebars Module
