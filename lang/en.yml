@@ -1,0 +1,331 @@
+en:
+  AssetAdmin:
+    ADDFILES: 'Add Files'
+    ActionAdd: 'Add folder'
+    AppCategoryArchive: Archive
+    AppCategoryAudio: Audio
+    AppCategoryDocument: Document
+    AppCategoryFlash: Flash
+    AppCategoryImage: Image
+    AppCategoryVideo: Video
+    BackToFolder: 'Back to folder'
+    CREATED: Date
+    CurrentFolderOnly: 'Limit to current folder?'
+    DetailsView: Details
+    FILES: Files
+    FILESYSTEMSYNC: 'Sync files'
+    FILESYSTEMSYNCTITLE: 'Update the CMS database entries of files on the filesystem. Useful when new files have been uploaded outside of the CMS, e.g. through FTP.'
+    FROMTHEINTERNET: 'From the internet'
+    FROMYOURCOMPUTER: 'From your computer'
+    Filetype: 'File type'
+    ListView: 'List View'
+    NEWFOLDER: NewFolder
+    SIZE: Size
+    THUMBSDELETED: '{count} unused thumbnails have been deleted'
+    TreeView: 'Tree View'
+    Upload: Upload
+    MENUTITLE: Files
+  AssetAdmin_DeleteBatchAction:
+    TITLE: 'Delete folders'
+  AssetAdmin_Tools:
+    FILTER: Filter
+  AssetAdmin_left.ss:
+    GO: Go
+  AssetTableField:
+    BACKLINKCOUNT: 'Used on:'
+    SIDEBARS: sidebar(s)
+  BackLink_Button.ss:
+    Back: Back
+  BrokenLinksReport:
+    Any: Any
+    BROKENLINKS: 'Broken links report'
+    CheckSite: 'Check site'
+    CheckSiteDropdownDraft: 'Draft Site'
+    CheckSiteDropdownPublished: 'Published Site'
+    ColumnDateLastModified: 'Date last modified'
+    ColumnDateLastPublished: 'Date last published'
+    ColumnProblemType: 'Problem type'
+    ColumnURL: URL
+    HasBrokenFile: 'has broken file'
+    HasBrokenLink: 'has broken link'
+    HasBrokenLinkAndFile: 'has broken link and file'
+    HoverTitleEditSidebar: 'Edit sidebar'
+    SidebarName: 'Sidebar name'
+    ReasonDropdown: 'Problem to check'
+    ReasonDropdownBROKENFILE: 'Broken file'
+    ReasonDropdownBROKENLINK: 'Broken link'
+  CMSAddSidebarController:
+    Title: 'Add sidebar'
+  CMSBatchActions:
+    DELETED_DRAFT_SIDEBARS: 'Deleted %d sidebars from draft site, %d failures'
+    DELETED_SIDEBARS: 'Deleted %d sidebars from published site, %d failures'
+    DELETE_DRAFT_SIDEBARS: 'Delete from draft site'
+    DELETE_SIDEBARS: 'Delete from published site'
+    PUBLISHED_SIDEBARS: 'Published %d sidebars, %d failures'
+    PUBLISH_SIDEBARS: Publish
+    UNPUBLISHED_SIDEBARS: 'Un-published %d sidebars'
+    UNPUBLISH_SIDEBARS: Un-publish
+  CMSMain:
+    ACCESS: 'Access to ''{title}'' section'
+    ACCESS_HELP: 'Allow viewing of the section containing sidebar content. View and edit permissions can be handled through sidebar specific dropdowns, as well as the separate "Content permissions".'
+    AddNew: 'Add new sidebar'
+    AddNewButton: 'Add new'
+    ChooseSidebarParentMode: 'Choose where to create this sidebar'
+    ChooseSidebarType: 'Choose sidebar type'
+    Create: Create
+    DELETE: 'Delete draft'
+    DELETEFP: Delete
+    DESCREMOVED: 'and {count} descendants'
+    DUPLICATED: 'Duplicated ''{title}'' successfully'
+    DUPLICATEDWITHCHILDREN: 'Duplicated ''{title}'' and children successfully'
+    EMAIL: Email
+    EditTree: 'Edit Tree'
+    ListFiltered: 'Filtered list.'
+    NEWSIDEBAR: 'New {sidebartype}'
+    SIDEBARNOTEXISTS: 'This sidebar doesn''t exist'
+    SIDEBARS: Sidebars
+    SIDEBARTYPEANYOPT: Any
+    SIDEBARTYPEOPT: 'sidebar Type'
+    SidebarAdded: 'Successfully created sidebar'
+    REMOVED: 'Deleted ''{title}''{description} from live site'
+    REMOVEDSIDEBAR: 'Removed ''{title}'' from the published site'
+    REMOVEDSIDEBARFROMDRAFT: 'Removed ''%s'' from the draft site'
+    RESTORE: Restore
+    RESTORED: 'Restored ''{title}'' successfully'
+    ROLLBACK: 'Roll back to this version'
+    ROLLEDBACKPUBv2: 'Rolled back to published version.'
+    ROLLEDBACKVERSIONv2: 'Rolled back to version #%d.'
+    SAVE: Save
+    SAVEDRAFT: 'Save draft'
+    TabContent: Content
+    TabHistory: History
+    TabSettings: Settings
+    TreeFiltered: 'Filtered tree.'
+    TreeFilteredClear: 'Clear filter'
+    MENUTITLE: 'Edit Sidebar'
+    AddSidebarRestriction: 'Note: Some sidebar types are not allowed for this selection'
+  CMSMain_left.ss:
+    'APPLY FILTER': 'Apply Filter'
+    RESET: Reset
+  CMSSidebarAddController:
+    ParentMode_child: 'Under page'
+    ParentMode_top: 'Top level'
+    MENUTITLE: 'Add sidebar'
+  CMSSidebarHistoryController:
+    COMPAREMODE: 'Compare mode (select two)'
+    COMPAREVERSIONS: 'Compare Versions'
+    COMPARINGVERSION: 'Comparing versions {version1} and {version2}.'
+    REVERTTOTHISVERSION: 'Revert to this version'
+    SHOWUNPUBLISHED: 'Show unpublished versions'
+    SHOWVERSION: 'Show Version'
+    VIEW: view
+    VIEWINGVERSION: 'Currently viewing version {version}.'
+    MENUTITLE: History
+    VIEWINGLATEST: 'Currently viewing the latest version.'
+  CMSSidebarHistoryController_versions.ss:
+    AUTHOR: Author
+    NOTPUBLISHED: 'Not published'
+    PUBLISHER: Publisher
+    UNKNOWN: Unknown
+    WHEN: When
+  CMSSidebarsController:
+    GalleryView: 'Gallery View'
+    ListView: 'List View'
+    MENUTITLE: Sidebars
+    TreeView: 'Tree View'
+  CMSSidebarsController_ContentToolbar.ss:
+    ENABLEDRAGGING: 'Drag''n''drop'
+    MULTISELECT: Multi-selection
+  CMSSidebarsController_Tools.ss:
+    FILTER: Filter
+  CMSSearch:
+    FILTERDATEFROM: From
+    FILTERDATEHEADING: Date
+    FILTERDATETO: To
+    FILTERLABELTEXT: Content
+  CMSSiteTreeFilter_ChangedSidebars:
+    Title: 'Changed sidebars'
+  CMSSiteTreeFilter_DeletedSidebars:
+    Title: 'All sidebars, including deleted'
+  CMSSiteTreeFilter_Search:
+    Title: 'All sidebars'
+  ContentControl:
+    NOTEWONTBESHOWN: 'Note: this message will not be shown to your visitors'
+  ContentController:
+    ARCHIVEDSITE: 'Preview version'
+    ARCHIVEDSITEFROM: 'Archived site from'
+    CMS: CMS
+    DRAFTSITE: 'Draft Site'
+    DRAFT_SITE_ACCESS_RESTRICTION: 'You must log in with your CMS password in order to view the draft or archived content.  <a href="%s">Click here to go back to the published site.</a>'
+    Email: Email
+    INSTALL_SUCCESS: 'Installation Successful!'
+    InstallFilesDeleted: 'Installation files have been successfully deleted.'
+    InstallSecurityWarning: 'For security reasons you should now delete the install files, unless you are planning to reinstall later (<em>requires admin login, see above</em>). The web server also now only needs write access to the "assets" folder, you can remove write access from all other folders. <a href="{link}" style="text-align: center;">Click here to delete the install files.</a>'
+    InstallSuccessCongratulations: 'SilverStripe has been successfully installed!'
+    LOGGEDINAS: 'Logged in as'
+    LOGIN: Login
+    LOGOUT: 'Log out'
+    NOTLOGGEDIN: 'Not logged in'
+    PUBLISHEDSITE: 'Published Site'
+    Password: Password
+    PostInstallTutorialIntro: 'This website is a simplistic version of a SilverStripe 3 site. To extend this, please take a look at {link}.'
+    StartEditing: 'You can start editing your content by opening <a href="{link}">the CMS</a>.'
+    UnableDeleteInstall: 'Unable to delete installation files. Please delete the files below manually'
+    VIEWSIDEBARIN: 'View Sidebar in:'
+    DRAFT: Draft
+    PUBLISHED: Published
+  Folder:
+    AddFolderButton: 'Add folder'
+    DELETEUNUSEDTHUMBNAILS: 'Delete unused thumbnails'
+    UNUSEDFILESTITLE: 'Unused files'
+    UNUSEDTHUMBNAILSTITLE: 'Unused thumbnails'
+    UploadFilesButton: Upload
+  LeftAndMain:
+    DELETED: Deleted.
+    PreviewButton: Preview
+    SAVEDUP: Saved.
+    STATUSPUBLISHEDSUCCESS: 'Published ''{title}'' successfully'
+    SearchResults: 'Search Results'
+    VersionUnknown: Unknown
+  Permission:
+    CMS_ACCESS_CATEGORY: 'CMS Access'
+  Permissions:
+    CONTENT_CATEGORY: 'Content permissions'
+    PERMISSIONS_CATEGORY: 'Roles and access permissions'
+  ReportAdmin:
+    ReportTitle: Title
+    MENUTITLE: Reports
+  ReportAdminForm:
+    FILTERBY: 'Filter by'
+  SearchForm:
+    GO: Go
+    SEARCH: Search
+    SearchResults: 'Search Results'
+  SideReport:
+    BrokenLinksGroupTitle: 'Broken links reports'
+    ContentGroupTitle: 'Content reports'
+    EMPTYSIDEBARS: 'Sidebars with no content'
+    LAST2WEEKS: 'Sidebars edited in the last 2 weeks'
+    OtherGroupTitle: Other
+    ParameterLiveCheckbox: 'Check live site'
+    REPEMPTY: 'The {title} report is empty.'
+  SilverStripeNavigatorLink:
+    ShareInstructions: 'To share this sidebar, copy and paste the link below.'
+    ShareLink: 'Share link'
+  SilverStripeNavigatorLinkl:
+    CloseLink: Close
+  Sidebar:
+    ACCESSANYONE: Anyone
+    ACCESSHEADER: 'Who can view this sidebar?'
+    ACCESSLOGGEDIN: 'Logged-in users'
+    ACCESSONLYTHESE: 'Only these people (choose from list)'
+    ADDEDTODRAFTHELP: 'Sidebar has not been published yet'
+    ADDEDTODRAFTSHORT: Draft
+    BUTTONCANCELDRAFT: 'Cancel draft changes'
+    BUTTONCANCELDRAFTDESC: 'Delete your draft and revert to the currently published sidebar'
+    BUTTONSAVEPUBLISH: 'Save & publish'
+    BUTTONUNPUBLISH: Unpublish
+    BUTTONUNPUBLISHDESC: 'Remove this sidebar from the published site'
+    CREATED: 'Date Created'
+    Content: Content
+    DELETEDSIDEBARHELP: 'Sidebar is no longer published'
+    DELETEDSIDEBARSHORT: Deleted
+    DESCRIPTION: 'Generic content sidebar'
+    EDITANYONE: 'Anyone who can log-in to the CMS'
+    EDITHEADER: 'Who can edit this sidebar?'
+    EDITONLYTHESE: 'Only these people (choose from list)'
+    EDITORGROUPS: 'Editor Groups'
+    EDIT_ALL_DESCRIPTION: 'Edit any sidebar'
+    EDIT_ALL_HELP: 'Ability to edit any sidebar on the site, regardless of the settings on the Access tab.  Requires the "Access to ''Sidebars'' section" permission'
+    Editors: 'Editors Groups'
+    HTMLEDITORTITLE: Content
+    INHERIT: 'Inherit from parent page'
+    LASTUPDATED: 'Last Updated'
+    MENUTITLE: 'Navigation label'
+    METADESC: 'Meta Description'
+    METADESCHELP: 'Search engines use this content for displaying search results (although it will not influence their ranking).'
+    METAEXTRA: 'Custom Meta Tags'
+    METAEXTRAHELP: 'HTML tags for additional meta information. For example &lt;meta name="customName" content="your custom content here" /&gt;'
+    MODIFIEDONDRAFTHELP: 'Sidebar has unpublished changes'
+    MODIFIEDONDRAFTSHORT: Modified
+    MetadataToggle: Metadata
+    OBSOLETECLASS: 'This sidebar is of obsolete type {type}. Saving will reset its type and you may lose data'
+    SIDEBARLOCATION: 'Sidebar location'
+    SIDEBARTITLE: 'Sidebar name'
+    SIDEBARTYPE: 'Sidebar type'
+    PARENTID: 'Parent page'
+    PARENTTYPE: 'Sidebar location'
+    PARENTTYPE_ROOT: 'Top-level sidebar'
+    PERMISSION_GRANTACCESS_DESCRIPTION: 'Manage access rights for content'
+    PERMISSION_GRANTACCESS_HELP: 'Allow setting of sidebar-specific access restrictions in the "Sidebars" section.'
+    PLURALNAME: Sidebars
+    SidebarTypNotAllowedOnRoot: 'Sidebar type "{type}" is not allowed on the root level'
+    SidebarTypeNotAllowed: 'Sidebar type "{type}" not allowed as child of this parent page'
+    REMOVEDFROMDRAFTHELP: 'Sidebar is published, but has been deleted from draft'
+    REMOVEDFROMDRAFTSHORT: 'Removed from draft'
+    SHOWONSITE: 'Show on site?'
+    SINGULARNAME: Sidebar
+    TABBEHAVIOUR: Behavior
+    TABCONTENT: 'Main Content'
+    TABDEPENDENT: 'Dependent pages'
+    TOPLEVEL: 'Site Content (Top Level)'
+    TOPLEVELCREATORGROUPS: 'Top level creators'
+    URLSegment: 'URL Segment'
+    VIEWERGROUPS: 'Viewer Groups'
+    VIEW_ALL_DESCRIPTION: 'View any sidebar'
+    VIEW_ALL_HELP: 'Ability to view any sidebar on the site, regardless of the settings on the Access tab.  Requires the "Access to ''Sidebars'' section" permission'
+    VIEW_DRAFT_CONTENT: 'View draft content'
+    VIEW_DRAFT_CONTENT_HELP: 'Applies to viewing sidebars outside of the CMS in draft mode. Useful for external collaborators without CMS access.'
+    Viewers: 'Viewers Groups'
+    Visibility: Visibility
+    has_one_Parent: 'Parent Page'
+    many_many_BackLinkTracking: 'Backlink Tracking'
+    many_many_ImageTracking: 'Image Tracking'
+    many_many_LinkTracking: 'Link Tracking'
+    BUTTONPUBLISHED: Published
+    BUTTONSAVED: Saved
+    GroupPlaceholder: 'Click to select group'
+    LASTPUBLISHED: 'Last published'
+    LASTSAVED: 'Last saved'
+    MoreOptions: 'More options'
+    NOTPUBLISHED: 'Not published'
+  SiteTreeURLSegmentField:
+    HelpChars: ' Special characters are automatically converted or removed.'
+    EMPTY: 'Please enter a URL Segment or click cancel'
+  StaticExporter:
+    BASEURL: 'Base URL'
+    EXPORTTO: 'Export to that folder'
+    NAME: 'Static exporter'
+  TableListField:
+    SELECT: 'Select:'
+  TableListField.ss:
+    NOITEMSFOUND: 'No items found'
+    SORTASC: 'Sort in ascending order'
+    SORTDESC: 'Sort in descending order'
+  TableListField_SidebarControls.ss:
+    DISPLAYING: Displaying
+    OF: of
+    TO: to
+    VIEWFIRST: 'View first'
+    VIEWLAST: 'View last'
+    VIEWNEXT: 'View next'
+    VIEWPREVIOUS: 'View previous'
+  TreeTools:
+    DisplayLabel: 'Display:'
+  ViewArchivedEmail.ss:
+    CANACCESS: 'You can access the archived site at this link:'
+    HAVEASKED: 'You have asked to view the content of our site on'
+  CMSFileAddController:
+    MENUTITLE: Files
+  CMSSidebarEditController:
+    MENUTITLE: 'Edit Sidebar'
+  CMSSidebarSettingsController:
+    MENUTITLE: 'Edit Sidebar'
+  CMSSettingsController:
+    MENUTITLE: Settings
+  SilverStripeNavigator:
+    ARCHIVED: Archived
+  URLSegmentField:
+    Cancel: Cancel
+    Edit: Edit
+    OK: OK
